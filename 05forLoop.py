@@ -1,6 +1,6 @@
 print(" "+"-"*48)
 print("|                                                |")
-print("|    05HelloWorld                                |")
+print("|    05forLoop                                   |")
 print("|    Name : Jennica Wang                         |")
 print("|    Version : 01                                |")
 print("|                                                |")

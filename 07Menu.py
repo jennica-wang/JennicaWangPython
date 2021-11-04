@@ -37,6 +37,16 @@ def whileLoop():
         else:
             print("Not Correct - try again")
 
+def stringLoop():
+    stringinput = input("What is your string? ")
+    for char in stringinput:
+        print(char)
+
+def converttoASCII():
+    string = input("What is your string? ")
+    for character in range(len(string)):
+        print("%c = %d" %(string[character], ord(string[character])))
+
 def endOutput():
     print()
     print("----End of Output -----------------------------")
@@ -91,6 +101,14 @@ while True:
         continue
     if userinput == ('6'):
         whileLoop()
+        endOutput()
+        continue
+    if userinput == ('7'):
+        stringLoop()
+        endOutput()
+        continue
+    if userinput == ('8'):
+        converttoASCII()
         endOutput()
         continue
     if userinput == ('x'):
